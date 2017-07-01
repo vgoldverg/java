@@ -1,0 +1,15 @@
+var numberX = 5;
+var mathFunction = "add";
+var numberY = 5;
+
+if (mathFunction === "add") {
+    console.log(numberX+numberY);
+} else if (mathFunction === "subtract") {
+    console.log(numberX-numberY);
+} else if (mathFunction === "multiply") {
+    console.log(numberX*numberY);
+} else if (mathFunction === "divide") {
+    console.log(numberX/numberY);
+} else {
+    console.log("Invalid math function");
+}
